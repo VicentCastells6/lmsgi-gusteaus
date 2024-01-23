@@ -1,8 +1,21 @@
 p{
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
-div{
-    background-color: green;
-    font-family: 'Courier New', Courier, monospace';
+#contenedor{
+    background-color: #fff8f0;
+    font: 'Times New Roman', serif;
+    font-size: 16px;
+    
+}
+.encabezado{
+    font:'Georgia', serif;
+    font-size: 36px;
+    height: 100px;
+    color: #5a3e36;
+    text-align: center;
+    background-image: url(/imgs/guesteaus.png) ;
+    background-size: auto;
+    background-position: center;
+    background-position-y:50%;
 }
