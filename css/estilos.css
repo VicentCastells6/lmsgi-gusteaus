@@ -12,10 +12,10 @@ p{
     font:'Georgia', serif;
     font-size: 36px;
     height: 100px;
-    color: #5a3e36;
+    color: #3e2310;
     text-align: center;
     background-image: url(/imgs/guesteaus.png) ;
     background-size: auto;
     background-position: center;
-    background-position-y:50%;
+
 }
