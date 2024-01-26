@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.menu{
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    
+}
+.menu li{
+     display: inline;
+     margin: 15px;;
+}
+.menu a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {color: #5a3e36;
+    font-family: 'Georgia', serif;
+}
