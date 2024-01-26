@@ -15,10 +15,25 @@ p{
     text-align: center;
     height: 200px;
     background: 
-     url('/imgs/favicon.png') top left / 70% 70%,
-      url('/imgs/guesteaus.png') center ;
-      
-  
+     url('/imgs/Logo.png') top left / 20%,
+     url('/imgs/guesteaus.png') center /  auto;
     background-repeat: no-repeat;
 
+}
+ .pie{
+    background-color: #5a3e36 ;
+    color:  #ecdcc6;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    
+ }
+.pie a {
+    color: #ecdcc6;
+    margin: 0 10px; 
+    text-decoration: none;
+
+  }
+.pie li{
+    display: inline
 }
