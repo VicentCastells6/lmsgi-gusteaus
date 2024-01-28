@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+    border: 1px solid #a77e58;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff8f0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+input:required:invalid,
+textarea:required:invalid {
+    border: 1px solid #ff6347;
+}
+button {
+    grid-column: span 2;
+}
+
+input[type='submit'], button{
+    background-color: #5a3e36;
+    color: #ffffff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover, input[type='submit']:hover{
+    background-color: #a77e58;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 16px; 
+    display: block;
+}
